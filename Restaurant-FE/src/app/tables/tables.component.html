@@ -1,0 +1,30 @@
+<article class="container mb-5">
+    <h3>Tables</h3>
+    <hr>
+
+    <app-loading-spinner *ngIf="isLoading"></app-loading-spinner>
+
+    <div class="row" *ngIf="!isLoading">
+        <div class="col-lg-3 col-md-4 col-sm-6" *ngFor="let table of tables">
+            <a class="btn-table" role="button" (click)="onClickTable(table.id)">
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between">
+                            <span 
+                            [ngClass]="{'bg-primary': table.status === 'Active', 'bg-secondary': table.status === 'Free'}"
+                            class="badge rounded-pill"
+                            >
+                            {{table.status}}</span>
+                            <span>Capacity: {{table.capacity}}</span>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="table-number mb-3">#{{table.id}}</div>
+                        <div>Waiter: <strong>{{table.waiter}}</strong></div>
+                        <div>Total: <strong>{{table.bill}}</strong></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</article>

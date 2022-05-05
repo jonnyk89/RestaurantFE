@@ -1,0 +1,89 @@
+<article class="container container-main mb-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a routerLink="/categories">Categories</a></li>
+            <li class="breadcrumb-item active" aria-current="page" id="breadcrumb-title">Add new category</li>
+        </ol>
+    </nav>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 id="page-title">Add new category</h3>
+            <hr>
+
+            <form [formGroup]="newCategoryForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="category" class="form-label">Category</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="category" 
+                    placeholder="Category name"
+                    formControlName="name"
+                    required>
+                    <span 
+                    class="help-block"
+                    *ngIf="!newCategoryForm.get('name').valid && newCategoryForm.get('name').touched">{{ nameError }}</span>
+                </div>
+                <div class="mb-3">
+                    <label for="parentCategory" class="form-label">Parent Category</label>
+                    <!-- <md-select ng-model="selectedCategory" name="myCategory">
+                        <md-option ng-class="'subcategory-' + category.level" ng-value="category._id" ng-repeat="category in flattenCategories track by category._id">{{ category.name }}</md-option>
+                    </md-select> -->
+                    <select
+                    class="form-select" 
+                    id="parentCategory"
+                    formControlName="parentCategory"
+                    required
+                    onmousedown="if(this.options.length>10){this.size=10;}"
+                    onchange='this.size=0;' 
+                    onblur="this.size=0;">
+                        <option value="None">None</option>
+                        <ng-container>
+                            <ng-template #recursiveList let-categories>
+                                <ng-container *ngFor="let category of categories">
+                                    <option id="category" value="{{category.id}}">{{ category.name }}</option>
+                                    <ng-container *ngIf="category.subcategories.length > 0">
+                                        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: category.subcategories }">
+                                            <ng-template #recursiveList let-subcategory>
+                                                <option id="subcategory" value="{{subcategory.id}}">{{subcategory.name}}</option>
+                                            </ng-template>
+                                        </ng-container>
+                                    </ng-container>
+                                </ng-container>
+                            </ng-template>
+                            <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: categories }"></ng-container>
+                    </ng-container>
+                    </select>
+                    <!-- <select 
+                    ng-model="category.id"
+                    class="form-select" 
+                    id="parentCategory"
+                    formControlName="parentCategory"
+                    required>
+                        <option value="None">None</option>
+                        <optgroup label=""></optgroup>
+                    </select> -->
+                    <!-- <select 
+                    class="form-select" 
+                    id="parentCategory"
+                    formControlName="parentCategory"
+                    required>
+                        <option value="None">None</option>
+                        <ng-container *ngFor="let category of categories">
+                            <option value="{{category.id}}">
+                                {{category.name}}
+                            </option>
+                            <option value="">
+                                <app-categories-recursive-dropdown [categories]="category.subcategories"></app-categories-recursive-dropdown>
+                            </option>
+                        </ng-container>
+                    </select> -->
+                </div>
+                <div class="text-end">
+                    <button class="btn btn-primary" type="button" (click)="onSubmit()">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</article>

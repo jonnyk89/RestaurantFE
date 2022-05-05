@@ -1,0 +1,35 @@
+div {
+    display: block;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.bg-primary {
+    background-color: #0d6efd!important;
+}
+
+.bg-secondary {
+    background-color: #6c757d!important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-table {
+    color: #212529;
+    text-decoration: none;
+}
+
+.table-number {
+    font-weight: bold;
+    font-size: 36px;
+}

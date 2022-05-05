@@ -1,0 +1,92 @@
+<article class="container container-main mb-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page" id="breadcrumb-title">Profile</li>
+        </ol>
+    </nav>
+
+    <div class="alert alert-danger" *ngIf="error">
+        <p>{{ error }}</p>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 id="page-title">Profile</h3>
+            <hr>
+            <form [formGroup]="editUserForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3 form-group">
+                    <label for="role" class="form-label" style="padding-right: 10px;">Role</label>
+                    <select 
+                    id="role" 
+                    class="form-select"
+                    formControlName="role"
+                    required>
+                        <option>Select role</option>
+                        <option value="Admin">Admin</option>
+                        <option value="Waiter">Waiter</option>
+                    </select>
+                    <span 
+                    class="help-block"
+                    *ngIf="editUserForm.get('role').value != 'Admin' && editUserForm.get('role').value != 'Waiter' && editUserForm.get('role').touched">{{ roleError }}</span>
+                </div>
+                <br>
+                <div class="mb-3 form-group">
+                    <label for="firstName" class="form-label">First Name</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="firstName" 
+                    placeholder="First name"
+                    formControlName="firstName"
+                    maxlength="100">
+                    <span 
+                    class="help-block"
+                    *ngIf="!editUserForm.get('firstName').valid && editUserForm.get('firstName').touched">{{ firstNameError }}</span>
+                </div>
+                <div class="mb-3 form-group">
+                    <label for="lastName" class="form-label">Last Name</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="lastName" 
+                    placeholder="Last name"
+                    formControlName="lastName"
+                    maxlength="100">
+                    <span 
+                    class="help-block"
+                    *ngIf="!editUserForm.get('lastName').valid && editUserForm.get('lastName').touched">{{ lastNameError }}</span>
+                </div>
+                <div class="mb-3 form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                    type="email" 
+                    class="form-control" 
+                    id="email" 
+                    placeholder="Email address"
+                    formControlName="email"
+                    email
+                    maxlength="255">
+                    <span 
+                    class="help-block"
+                    *ngIf="!editUserForm.get('email').valid && editUserForm.get('email').touched">{{ emailError }}</span>
+                </div>
+                <div class="mb-3 form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <input 
+                    type="password" 
+                    class="form-control" 
+                    id="password" 
+                    placeholder="Password"
+                    formControlName="password"
+                    >
+                    <span 
+                    class="help-block"
+                    *ngIf="!editUserForm.get('password').valid && editUserForm.get('password').touched">{{ passwordError }}</span>
+                </div>
+                <div class="text-end">
+                    <button class="btn btn-primary" type="button" (click)="onSubmit()">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,89 @@
+<article class="container container-main mb-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a routerLink="/products">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page" id="breadcrumb-title">Add new product</li>
+        </ol>
+    </nav>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 id="page-title">Add new product</h3>
+            <hr>
+
+            <form [formGroup]="newProductForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="product" class="form-label">Product</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="product" 
+                    placeholder="Product name"
+                    formControlName="name"
+                    required>
+                    <span 
+                    class="help-block"
+                    *ngIf="!newProductForm.get('name').valid && newProductForm.get('name').touched">{{ nameError }}</span>
+                </div>
+                <div class="mb-3">
+                    <label for="category" class="form-label">Category</label>
+                    <select
+                    class="form-select" 
+                    id="category"
+                    formControlName="category"
+                    required
+                    onmousedown="if(this.options.length>10){this.size=10;}"
+                    onchange='this.size=0;' 
+                    onblur="this.size=0;">
+                        <option value="select">Select Category</option>
+                        <ng-container>
+                            <ng-template #recursiveList let-categories>
+                                <ng-container *ngFor="let category of categories">
+                                    <option id="category" value="{{category.id}}">{{ category.name }}</option>
+                                    <ng-container *ngIf="category.subcategories.length > 0">
+                                        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: category.subcategories }">
+                                            <ng-template #recursiveList let-subcategory>
+                                                <option id="subcategory" value="{{subcategory.id}}">{{subcategory.name}}</option>
+                                            </ng-template>
+                                        </ng-container>
+                                    </ng-container>
+                                </ng-container>
+                            </ng-template>
+                            <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: categories }"></ng-container>
+                    </ng-container>
+                    </select>
+                    <span 
+                    class="help-block"
+                    *ngIf="newProductForm.get('category').value === 'select' && newProductForm.get('category').touched">{{ categoryError }}</span>
+
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Description</label>
+                    <textarea 
+                    class="form-control" 
+                    id="description" 
+                    placeholder="Product description"
+                    formControlName="description"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Price</label>
+                    <div class="input-group">
+                        <input 
+                        type="number" 
+                        class="form-control" 
+                        id="price"
+                        formControlName="price"
+                        required>
+                        <span class="input-group-text">BGN</span>
+                    </div>
+                    <span 
+                    class="help-block"
+                    *ngIf="!newProductForm.get('price').valid && newProductForm.get('price').touched">{{ priceError }}</span>
+                </div>
+                <div class="text-end">
+                    <button class="btn btn-primary" type="button" (click)="onSubmit()">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</article>

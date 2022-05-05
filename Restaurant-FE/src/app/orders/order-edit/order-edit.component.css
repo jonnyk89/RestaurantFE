@@ -1,0 +1,13 @@
+h3 small {
+    font-size: 16px;
+}
+
+.btn-product {
+    color: #212529;
+    text-decoration: none;
+}
+
+.disable-click {
+    pointer-events: none;
+    cursor: default;
+  }

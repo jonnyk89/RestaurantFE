@@ -1,0 +1,57 @@
+<article class="container container-main mb-5">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a style="cursor: pointer;" routerLink="/categories">Categories</a></li>
+            <li class="breadcrumb-item active" aria-current="page" id="breadcrumb-title">Edit category</li>
+        </ol>
+    </nav>
+
+    <div class="card">
+        <div class="card-body">
+            <h3 id="page-title">Edit category: {{oldName}}</h3>
+            <hr>
+
+            <form [formGroup]="editcategoryForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="category" class="form-label">Category</label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="category" 
+                    placeholder="Category name"
+                    formControlName="name"
+                    required>
+                </div>
+                <div class="mb-3">
+                    <label for="parentCategory" class="form-label">Parent Category</label>
+                    <select
+                    class="form-select" 
+                    id="parentCategory"
+                    formControlName="parentCategory"
+                    required
+                    onmousedown="if(this.options.length>10){this.size=10;}"
+                    onchange='this.size=0;' 
+                    onblur="this.size=0;">
+                        <option value="None">None</option>
+                        <ng-container>
+                            <ng-template #recursiveList let-categories>
+                                <ng-container *ngFor="let category of categories;">
+                                    <option id="category" value="{{category.id}}">{{ category.name }}</option>
+                                    <ng-container *ngIf="category.subcategories.length > 0">
+                                        <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: category.subcategories }">
+
+                                        </ng-container>
+                                    </ng-container>
+                                </ng-container>
+                            </ng-template>
+                            <ng-container *ngTemplateOutlet="recursiveList; context:{ $implicit: categories }"></ng-container>
+                        </ng-container>
+                    </select>
+                </div>
+                <div class="text-end">
+                    <button class="btn btn-primary" type="button" (click)="onSubmit()">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</article>

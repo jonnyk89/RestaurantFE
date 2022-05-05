@@ -1,0 +1,180 @@
+<div *ngIf="!isInEditMode">
+    <p>EditMode</p>
+</div>
+<article class="container mb-5" *ngIf="isInEditMode === false">
+    <h3 class="mb-3 role-waiter" style="display: block;">
+        Table #{{order.tableId}}<br>
+        <div class="row">
+            <div class="col-6"><small>Capacity: {{table.capacity}}</small></div>
+            <div class="col-6 text-end"><small>Waiter: {{order.waiter}}</small></div>
+        </div>
+    </h3>
+
+    <div>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div [ngClass]="{'products-container': true}">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item" *ngFor="let breadcrumb of breadcrumbs"
+                                        [ngClass]="{'disable-click': breadcrumbs[breadcrumbs.length - 1] === breadcrumb}">
+                                        <a role="button" (click)="onBreadcrumbSelect(breadcrumb)">{{breadcrumb}}</a>
+                                    </li>
+                                </ol>
+                            </nav>
+                            <div class="row mb-3">
+                                <div class="col-xl-4 col-sm-6 d-flex" *ngFor="let category of categories">
+                                    <button type="button" class="btn btn-outline-secondary flex-fill"
+                                        (click)="onCategorySelect(category.id, category.name)"
+                                        *ngIf="categories.length > 1">{{category.name}}</button>
+                                </div>
+                            </div>
+
+                            <h4>Products</h4>
+                            <div class="row">
+                                <div class="col-xl-4 col-sm-6" *ngFor="let product of products">
+                                    <a class="btn-product" role="button"
+                                        (click)="onAddProductToOrder(product.productId)">
+                                        <div class="card mb-3">
+                                            <div class="card-body text-center">
+                                                <div class="product-name mb-3">{{product.name}}</div>
+                                                <div>Price: <strong>{{product.price}} BGN</strong></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                </ul>
+                            </nav>
+                            <div class="products-overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h5 class="card-title mb-0">Current order</h5>
+                            </div>
+                            <div class="card-body bg-light">
+                                <p>Start the order to add products.</p>
+                                <button type="button" class="btn btn-primary btn-lg w-100" (click)="createNewOrder()">Start order</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+<article class="container mb-5" *ngIf="isInEditMode === true">
+    <h3 class="mb-3 role-waiter" style="display: block;">
+        Table #{{order.tableId}}<br>
+        <div class="row">
+            <div class="col-6"><small>Capacity: {{table.capacity}}</small></div>
+            <div class="col-6 text-end"><small>Waiter: {{order.waiter}}</small></div>
+        </div>
+    </h3>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li 
+                            class="breadcrumb-item" 
+                            *ngFor="let breadcrumb of breadcrumbs"
+                            [ngClass]="{'disable-click': breadcrumbs[breadcrumbs.length - 1] === breadcrumb}">
+                            <a role="button" (click)="onBreadcrumbSelect(breadcrumb)">{{breadcrumb}}</a></li>
+                        </ol>
+                    </nav>
+                    <div class="row mb-3">
+                        <div class="col-xl-4 col-sm-6 d-flex" *ngFor="let category of categories">
+                            <button 
+                            type="button" 
+                            class="btn btn-outline-secondary flex-fill" 
+                            (click)="onCategorySelect(category.id, category.name)"
+                            *ngIf="categories.length > 1">{{category.name}}</button>
+                        </div>
+                    </div>
+
+                    <h4>Products</h4>
+                    <div class="row" >
+                        <div class="col-xl-4 col-sm-6" *ngFor="let product of products">
+                            <a class="btn-product" role="button" (click)="onAddProductToOrder(product.productId)">
+                                <div class="card mb-3">
+                                    <div class="card-body text-center">
+                                        <div class="product-name mb-3">{{product.name}}</div>
+                                        <div>Price: <strong>{{product.price}} BGN</strong></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">Current order</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li 
+                            class="list-group-item bg-light d-flex align-items-center"
+                            *ngFor="let product of order.products">
+                                <div class="flex-fill">{{product.name}}</div>
+                                <div class="product-qnt">
+                                    <input 
+                                    value="{{product.quantity}}"
+                                    [ngModel]="product.quantity"
+                                    (ngModelChange)="quantityChanged($event, product.name)"
+                                    type="number" 
+                                    class="form-control" 
+                                    min="1">
+                                </div>
+                                <div class="product-price">
+                                    {{product.price}} BGN
+                                </div>
+                                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#remove-product-modal" (click)="onRemoveProductFromOrder(product.name)">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </li>
+                            <li class="list-group-item bg-light d-flex align-items-center">
+                                <div class="flex-fill">Total:</div>
+                                <strong>{{order.price}} BGN</strong>
+                            </li>
+                        </ul>
+                        <div class="card-body bg-light">
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-outline-primary btn-lg mb-2 w-100" (click)="onOrderSave()">Save</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-outline-danger btn-lg mb-2 w-100" routerLink="/tables">Discard</button>
+                                </div>
+                            </div>
+                            <!-- <button type="button" class="btn btn-primary btn-lg w-100" data-bs-toggle="modal" data-bs-target="#complete-order-modal" (click)="onCompleteOrder()">Complete</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
