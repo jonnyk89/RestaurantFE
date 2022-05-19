@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cedff2e5-160b-42c7-8e75-5fcb130e91bd": {
+      "ProjectGuid": "cedff2e5-160b-42c7-8e75-5fcb130e91bd",
+      "DisplayName": "Restaurant.Api",
+      "ColorIndex": 0
+    },
+    "782cffde-2df7-4618-a48b-a0b19d9e99c9": {
+      "ProjectGuid": "782cffde-2df7-4618-a48b-a0b19d9e99c9",
+      "DisplayName": "Restaurant.Domain",
+      "ColorIndex": 1
+    },
+    "02c47a62-bf8d-4cf8-bebf-e30955f2a852": {
+      "ProjectGuid": "02c47a62-bf8d-4cf8-bebf-e30955f2a852",
+      "DisplayName": "Restaurant.Data",
+      "ColorIndex": 2
+    },
+    "815e76e8-cc83-4d44-8f8d-563a57b02edd": {
+      "ProjectGuid": "815e76e8-cc83-4d44-8f8d-563a57b02edd",
+      "DisplayName": "Restaurant.Business",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "02d44f01-fea6-43b1-84b5-87ea3be23334": {
+      "ProjectGuid": "02d44f01-fea6-43b1-84b5-87ea3be23334",
+      "DisplayName": "Restaurant.Tests",
+      "ColorIndex": 4
+    },
+    "da7f8dae-b92a-4b45-bec7-6bce47b82fc3": {
+      "ProjectGuid": "da7f8dae-b92a-4b45-bec7-6bce47b82fc3",
+      "DisplayName": "Restaurant.Tests",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

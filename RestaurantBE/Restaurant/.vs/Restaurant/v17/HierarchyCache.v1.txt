@@ -1,0 +1,372 @@
+﻿++Solution 'Restaurant' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:Restaurant.sln
+++Restaurant.Api
+i:{00000000-0000-0000-0000-000000000000}:Restaurant.Api
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\bin\debug\net6.0\restaurant.api.dll
+++Connected Services 
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1284
+++Dependencies
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1283
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:>1048
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:>1126
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:>1049
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:>1050
+++Properties
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\properties\
+++launchSettings.json
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\properties\launchsettings.json
+++Controllers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\controllers\
+++AuthorizeController.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\authorizecontroller.cs
+++CategoriesController.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\categoriescontroller.cs
+++OrdersController.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\orderscontroller.cs
+++ProductsController.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\productscontroller.cs
+++TablesController.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\tablescontroller.cs
+++UsersController.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\controllers\userscontroller.cs
+++Extensions
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\extensions\
+++ClaimsPrincipalExtensions.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\extensions\claimsprincipalextensions.cs
+++EnumerableExtensions.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\extensions\enumerableextensions.cs
+++HostExtensions.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\extensions\hostextensions.cs
+++appsettings.json
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\appsettings.json
+++Program.cs
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\program.cs
+++No service dependencies discovered
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1285
+++Analyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:analyzers
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:analyzers
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:analyzers
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:analyzers
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:analyzers
+++Frameworks
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:frameworks
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:frameworks
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:frameworks
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:frameworks
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:frameworks
+++Packages
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:packages
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:packages
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:packages
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:packages
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:packages
+++Projects
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:projects
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:projects
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:projects
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:projects
+++appsettings.Development.json
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.2\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.api\microsoft.netcore.app
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\microsoft.netcore.app
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\microsoft.netcore.app
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\microsoft.netcore.app
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.2)
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1365
+++Microsoft.EntityFrameworkCore.Design (6.0.2)
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1362
+++Microsoft.IdentityModel.Tokens (6.16.0)
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1366
+++Swashbuckle.AspNetCore (6.2.3)
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1364
+++System.IdentityModel.Tokens.Jwt (6.16.0)
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:>1363
+++Restaurant.Business
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\bin\debug\net6.0\restaurant.business.dll
+i:{00000000-0000-0000-0000-000000000000}:Restaurant.Business
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\bin\debug\net6.0\restaurant.business.dll
+++Restaurant.Data
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\bin\debug\net6.0\restaurant.data.dll
+i:{00000000-0000-0000-0000-000000000000}:Restaurant.Data
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\bin\debug\net6.0\restaurant.data.dll
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\bin\debug\net6.0\restaurant.data.dll
+++Restaurant.Domain
+i:{cedff2e5-160b-42c7-8e75-5fcb130e91bd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\bin\debug\net6.0\restaurant.domain.dll
+i:{00000000-0000-0000-0000-000000000000}:Restaurant.Domain
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\bin\debug\net6.0\restaurant.domain.dll
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\bin\debug\net6.0\restaurant.domain.dll
+++Entities
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\
+++Enums
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\enums\
+++OrderStatus.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\enums\orderstatus.cs
+++SortOptions.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\enums\sortoptions.cs
+++StatusOptions.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\enums\statusoptions.cs
+++TableStatus.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\enums\tablestatus.cs
+++UserRole.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\enums\userrole.cs
+++Initialization
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\initialization\
+++FoodCategories.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\initialization\foodcategories.cs
+++FoodProducts.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\initialization\foodproducts.cs
+++MessageResponses
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\messageresponses\
+++Messages.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\messageresponses\messages.cs
+++RegularExpressions
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\regularexpressions\
+++Category.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\category.cs
+++Order.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\order.cs
+++OrderProduct.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\orderproduct.cs
+++Product.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\product.cs
+++Table.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\table.cs
+++User.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\user.cs
+++RegEx.cs
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restautant.domain\entities\regularexpressions\regex.cs
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.2)
+i:{782cffde-2df7-4618-a48b-a0b19d9e99c9}:>1344
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:>1330
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:>1296
+++EntityFramework (6.4.4)
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:>1332
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.2)
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:>1329
+++Microsoft.EntityFrameworkCore.Tools (6.0.2)
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:>1331
+++Configurations
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\configurations\
+++CategoryConfigurations.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\configurations\categoryconfigurations.cs
+++OrderConfigurations.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\configurations\orderconfigurations.cs
+++OrderProductConfigurations.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\configurations\orderproductconfigurations.cs
+++ProductConfigurations.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\configurations\productconfigurations.cs
+++TableConfigurations.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\configurations\tableconfigurations.cs
+++Contracts
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\contracts\
+++Migrations
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\migrations\
+++Paging
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\paging\
+++Repositories
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\repositories\
+++CategoryRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\repositories\categoryrepository.cs
+++OrderRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\repositories\orderrepository.cs
+++ProductRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\repositories\productrepository.cs
+++TableRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\repositories\tablerepository.cs
+++UserRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\repositories\userrepository.cs
+++AppDbContext.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\appdbcontext.cs
+++DbInitializer.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\dbinitializer.cs
+++ICategoryRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\contracts\icategoryrepository.cs
+++IOrderRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\contracts\iorderrepository.cs
+++IProductRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\contracts\iproductrepository.cs
+++ITableRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\contracts\itablerepository.cs
+++IUserRepository.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\contracts\iuserrepository.cs
+++20220509094959_Initial.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\migrations\20220509094959_initial.cs
+++AppDbContextModelSnapshot.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\migrations\appdbcontextmodelsnapshot.cs
+++Paginator.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\paging\paginator.cs
+++20220509094959_Initial.Designer.cs
+i:{02c47a62-bf8d-4cf8-bebf-e30955f2a852}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.data\migrations\20220509094959_initial.designer.cs
+++Configuration
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\configuration\
+++AuthOptions.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\configuration\authoptions.cs
+++Requests
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\
+++AuthorizeRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\authorizerequest.cs
+++CategoryCreateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\categorycreaterequest.cs
+++CategoryUpdateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\categoryupdaterequest.cs
+++OrderCreateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\ordercreaterequest.cs
+++OrderProductRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\orderproductrequest.cs
+++OrderUpdateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\orderupdaterequest.cs
+++ProductCreateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\productcreaterequest.cs
+++ProductUpdateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\productupdaterequest.cs
+++UserCreateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\usercreaterequest.cs
+++UserUpdateProfileRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\userupdateprofilerequest.cs
+++UserUpdateRequest.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\requests\userupdaterequest.cs
+++Responses
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\
+++AuthorizeErrorResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\authorizeerrorresponse.cs
+++AuthorizeResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\authorizeresponse.cs
+++GeneralCategoryResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\generalcategoryresponse.cs
+++MessageResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\messageresponse.cs
+++OrderGeneralResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\ordergeneralresponse.cs
+++OrderProductResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\orderproductresponse.cs
+++OrderResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\orderresponse.cs
+++OrderTableResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\ordertableresponse.cs
+++ProductResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\productresponse.cs
+++TableGeneralResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\tablegeneralresponse.cs
+++TableResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\tableresponse.cs
+++TotalResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\totalresponse.cs
+++UserResponse.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\responses\userresponse.cs
+++Services
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\services\
+++AuthorizeService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\authorizeservice.cs
+++CategoryService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\categoryservice.cs
+++IAuthorizeService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\iauthorizeservice.cs
+++ICategoryService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\icategoryservice.cs
+++IMapperService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\imapperservice.cs
+++IOrderService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\iorderservice.cs
+++IProductService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\iproductservice.cs
+++ITableService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\itableservice.cs
+++IUserService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\iuserservice.cs
+++MapperService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\mapperservice.cs
+++OrderService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\orderservice.cs
+++ProductService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\productservice.cs
+++TableService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\tableservice.cs
+++UserService.cs
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.business\services\userservice.cs
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{815e76e8-cc83-4d44-8f8d-563a57b02edd}:>1295
+++Restaurant.Tests
+i:{00000000-0000-0000-0000-000000000000}:Restaurant.Tests
+++CategoriesControllerTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\controllers\categoriescontrollertests.cs
+++OrdersControllerTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\controllers\orderscontrollertests.cs
+++ProductsControllerTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\controllers\productscontrollertests.cs
+++TablesControllerTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\controllers\tablescontrollertests.cs
+++UserControllerTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\controllers\usercontrollertests.cs
+++CategoryServiceTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\services\categoryservicetests.cs
+++OrderServiceTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\services\orderservicetests.cs
+++ProductServiceTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\services\productservicetests.cs
+++TableServiceTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\services\tableservicetests.cs
+++UserServiceTests.cs
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:c:\users\asus\desktop\work\jobs\mentormate\restaurant with unit tests\restaurant\restaurant.tests\services\userservicetests.cs
+++coverlet.collector (3.1.0)
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:>1314
+++Microsoft.NET.Test.Sdk (16.11.0)
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:>1312
+++Moq (4.17.2)
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:>1313
+++MSTest.TestAdapter (2.2.7)
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:>1315
+++MSTest.TestFramework (2.2.7)
+i:{da7f8dae-b92a-4b45-bec7-6bce47b82fc3}:>1311

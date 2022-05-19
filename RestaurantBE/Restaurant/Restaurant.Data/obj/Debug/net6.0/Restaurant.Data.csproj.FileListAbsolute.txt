@@ -1,0 +1,51 @@
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.deps.json
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.runtimeconfig.json
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\ref\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Domain.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Domain.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\ref\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restautant\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.deps.json
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.runtimeconfig.json
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\ref\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Domain.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Domain.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\ref\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\GitLab\yoan-krumov\11. Restaurant API\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.deps.json
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.runtimeconfig.json
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\ref\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Data.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Domain.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\bin\Debug\net6.0\Restaurant.Domain.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.AssemblyReference.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\ref\Restaurant.Data.dll
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.pdb
+C:\Users\ASUS\Desktop\Work\Jobs\MentorMate\Restaurant with Unit Tests\Restaurant\Restaurant.Data\obj\Debug\net6.0\Restaurant.Data.genruntimeconfig.cache
